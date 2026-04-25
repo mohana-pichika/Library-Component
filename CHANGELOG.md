@@ -85,6 +85,16 @@ the following form: YYYY.0M.0D.
 - Designed a Project Tracker component
 - Designed a Writing Calculator component
 
+## 2026.04.24
+
+### Added
+
+- Designed a proof of concept for Library component
+
+### Updated
+
+- Changed design to include more useful secondary and kernal methods
+
 [unreleased]: https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD
 [2024.08.07]: https://github.com/jrg94/portfolio-project/compare/v2024.01.07...v2024.08.07
 [2024.01.07]: https://github.com/jrg94/portfolio-project/releases/tag/v2024.01.07
