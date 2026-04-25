@@ -3,7 +3,7 @@ import components.sequence.Sequence;
 /**
  * Enhanced Interface.
  */
-public interface Library extends Librarykernal {
+public interface Library extends Librarykernel {
     /**
      * Updates the finished status of the book with the given title. to removi g
      * the old value and re-adding with updated data — the Map pattern for
