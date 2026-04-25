@@ -163,7 +163,7 @@ public final class Library {
     }
 
     /**
-     * main.
+     * main method.
      *
      * @param args
      */
