@@ -95,6 +95,15 @@ the following form: YYYY.0M.0D.
 
 - Changed design to include more useful secondary and kernal methods
 
-[unreleased]: https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD
-[2024.08.07]: https://github.com/jrg94/portfolio-project/compare/v2024.01.07...v2024.08.07
-[2024.01.07]: https://github.com/jrg94/portfolio-project/releases/tag/v2024.01.07
+## 2026.04.24
+
+### Added
+
+- Designed kernel and enhanced interfaces for library component
+
+### Updated
+
+- Changed design to include another method sortedwordcount to secondary
+[unreleased]: <https://github.com/jrg94/portfolio-project/compare/v2024.08.07...HEAD>
+[2024.08.07]: <https://github.com/jrg94/portfolio-project/compare/v2024.01.07...v2024.08.07>
+[2024.01.07]: <https://github.com/jrg94/portfolio-project/releases/tag/v2024.01.07>
