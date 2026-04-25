@@ -5,7 +5,7 @@ import components.simplewriter.SimpleWriter1L;
 
 /**
  * Kernel implemntation.
- * 
+ *
  * @convention <pre>
  * rep is not null, all titles are unique, all values are valid
  * </pre>
@@ -19,7 +19,7 @@ public class Library1L extends Librarysecondary {
     /**
      * BookValues object.
      */
-    private final class BookValues {
+    public final class BookValues {
 
         /**
          * The author of the book.
@@ -92,6 +92,7 @@ public class Library1L extends Librarysecondary {
      *            true if the book has been read
      *
      */
+    @Override
     public void add(String title, String author, int wordCount,
             boolean finished) {
         this.rep.add(title, new BookValues(author, wordCount, finished));
@@ -104,6 +105,7 @@ public class Library1L extends Librarysecondary {
      *            the title (key) to remove
      * @return the BookValue stored under title
      */
+    @Override
     public BookValues remove(String title) {
         return this.rep.remove(title).value();
     }
@@ -113,6 +115,7 @@ public class Library1L extends Librarysecondary {
      *
      * @return an arbitrary Map.Pair
      */
+    @Override
     public Map.Pair<String, BookValues> removeAny() {
         return this.rep.removeAny();
     }
@@ -124,6 +127,7 @@ public class Library1L extends Librarysecondary {
      *            the title to look up
      * @return the BookValue stored under title
      */
+    @Override
     public BookValues value(String title) {
         return this.rep.value(title);
     }
@@ -135,6 +139,7 @@ public class Library1L extends Librarysecondary {
      *            the title to test
      * @return true iff title is a key in this Library
      */
+    @Override
     public boolean hasTitle(String title) {
         return this.rep.hasKey(title);
     }
@@ -144,6 +149,7 @@ public class Library1L extends Librarysecondary {
      *
      * @return |this|
      */
+    @Override
     public int size() {
         return this.rep.size();
     }
@@ -153,6 +159,7 @@ public class Library1L extends Librarysecondary {
      *
      * @return new instance of Library1L
      */
+    @Override
     public Library1L newInstance() {
         return new Library1L();
     }
@@ -171,6 +178,7 @@ public class Library1L extends Librarysecondary {
      * Resets this Library to the empty state.
      *
      */
+    @Override
     public void clear() {
         this.rep.clear();
     }
