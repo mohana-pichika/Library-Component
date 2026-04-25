@@ -37,8 +37,7 @@ public interface Librarykernel extends Standard<Library> {
      *
      * @return a object with the removed title and its {@code BookValue}
      * @requires size() > 0
-     * @ensures the returned pair was in #this and this = #this \ {returned
-     *          pair}
+     * @ensures the returned pair was in #this and this = #this retuned pair
      */
     BookValues removeAny();
 

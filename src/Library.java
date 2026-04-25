@@ -31,7 +31,7 @@ public interface Library extends Librarykernel {
      * es broken alphabetically by title.
      *
      * @return new Sequence of titles ordered by ascending word count
-     * @ensures result contains exactly the keys of this Library, described bove
+     * @ensures result contains exactly the keys of this Library
      */
     Sequence<String> sortedByWordCount();
 
